@@ -4,6 +4,7 @@ use ieee.numeric_std.all;
 
 entity clock_div4 is
   port (clock_in       : in  std_logic;
+        clock_div2     : out std_logic;
         clock_div4_0   : out std_logic;
         clock_div4_90  : out std_logic
         );
@@ -31,6 +32,7 @@ begin
 		end if;
 	end process;
 
+        clock_div2 <= div2;
 	clock_div4_0 <= div4_0;
 	clock_div4_90 <= div4_90;
 end;
