@@ -1,0 +1,10 @@
+venv
+*.vcd
+*.dblite
+*.asc
+*.bin
+*.ghw
+*.gtkwave
+*.cf
+*.json
+
