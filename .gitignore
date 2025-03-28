@@ -7,4 +7,4 @@ venv
 *.gtkwave
 *.cf
 *.json
-
+build/*
